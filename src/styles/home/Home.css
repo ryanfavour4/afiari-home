@@ -166,9 +166,8 @@
   display: flex;
   gap: 50px;
   align-items: center;
-  justify-content: center;
   padding: 5px 10px;
-  min-width: 150%;
+  min-width: 1700px;
   padding-bottom: 2rem;
 }
 
@@ -177,6 +176,7 @@
   border-radius: 10px;
   box-shadow: 1px 2px 4px -1px var(--grey);
   width: 100%;
+  max-width: 250px;
 }
 
 .Storesonafiari_img_card {
