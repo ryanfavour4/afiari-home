@@ -1,0 +1,207 @@
+.flex_herosection_col2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero_adcopy_heading {
+  line-height: 54.96px;
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-top: 8rem;
+}
+
+.hero_adcopy_heading::after {
+  content: url("../../assets/svg/svg10.svg");
+  display: block;
+  width: 65px;
+  position: absolute;
+  bottom: 25px;
+  left: 90px;
+}
+
+.red_text {
+  color: var(--red);
+}
+
+.female_image_hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.female_image_hero img {
+  width: 92%;
+}
+
+.adcopy_text_hero p {
+  font-size: 28px;
+}
+
+.get_invite_btn {
+  border: none;
+  background: var(--dark-green);
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: var(--white);
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.get_invite_btn:hover {
+  border: 2px solid var(--dark-green);
+  background: transparent;
+  color: var(--dark-green);
+}
+
+/* //?  ===== Whatyouget ====== */
+.Whatyouget {
+  background: var(--beige);
+  padding: 2rem;
+}
+
+.second_font_title {
+  font-family: "Raleway", sans-serif;
+}
+
+.whatyouget_heading_top {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark);
+  background: linear-gradient(#f8e5c7da, #f8e5c7be),
+    url("../../assets/svg/Why\ we\ stand\ out.svg");
+  padding: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 20%);
+  transition: all 0.3s ease;
+}
+
+.whatyouget_heading_top:hover {
+  background-size: calc(100vw - 5%);
+}
+
+.whatyouget_features_box:nth-child(1) svg {
+  color: var(--dark-green);
+}
+.whatyouget_features_box:nth-child(2) svg {
+  color: var(--red);
+}
+.whatyouget_features_box:nth-child(3) svg {
+  color: rgb(226, 147, 0);
+}
+.whatyouget_features_box:nth-child(4) svg {
+  color: green;
+}
+
+.whatyouget_features_flex {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.whatyouget_features_box {
+  border: 2px solid var(--dark-green);
+  display: flex;
+  border-radius: 8px;
+  gap: 15px;
+  color: var(--dark);
+  max-width: 260px;
+  padding: 10px;
+}
+
+.whatyouget_features_box svg {
+  font-size: 36px;
+}
+
+.whatyouget_features_box h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.whatyouget_features_box p {
+  margin: 0;
+}
+
+/* //? ===== Storesonafiari ===== ?//  */
+
+.Storesonafiari_heading_top {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark);
+  background: linear-gradient(#ffffffd8, #ffffffd8),
+    url("../../assets/svg/Stores\ on\ Afiari.svg");
+  padding: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 30%);
+  transition: all 0.3s ease;
+}
+
+.Storesonafiari_heading_top:hover {
+  background-size: calc(100vw - 10%);
+}
+
+.Storesonafiari_features_flex {
+  overflow-x: scroll;
+  padding-top: 8rem;
+}
+.Storesonafiari_features_flex::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: var(--dark-green);
+}
+.Storesonafiari_features_flex::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 5px;
+  background: var(--red);
+}
+
+.Storesonafiari_scroll {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  min-width: 150%;
+  padding-bottom: 2rem;
+}
+
+.Storesonafiari_card {
+  background: #f9fafa;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px -1px var(--grey);
+  width: 100%;
+}
+
+.Storesonafiari_img_card {
+  position: relative;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Storesonafiari_card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -140%;
+  border: 10px solid var(--white);
+}
+
+.Storesonafiari_store_name {
+  margin: 0;
+  padding: 1rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: var(--dark);
+  text-align: center;
+}

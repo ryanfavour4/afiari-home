@@ -1,0 +1,125 @@
+.Navbar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  padding-block: 1rem;
+  box-shadow: 1px 1px 5px 1px rgba(133, 133, 133, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+  margin-bottom: 2rem;
+}
+
+.flex_topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_nav {
+  width: 123px;
+}
+
+.sliding_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+
+.flex_topnav nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  list-style: none;
+}
+
+.flex_topnav nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.1s ease;
+  font-size: 18px;
+  padding-inline: 5px;
+}
+
+.flex_topnav nav ul li a:hover {
+  color: var(--red);
+  border-block: 2px solid var(--red);
+}
+
+.signup_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.signup_links button,.signup_links .signup:hover{
+    border: none;
+    background: var(--dark-green);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: var(--white);
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.signup_links button:hover{
+    border: 2px solid var(--dark-green);
+    background: transparent;
+    color: var(--dark-green);
+}
+
+.signup_links .signup{
+    border: 2px solid var(--dark-green);
+    background: transparent;
+    color: var(--dark-green);
+}
+
+
+
+/* //?====== FOOTER */
+
+.Footer{
+    background: var(--dark);
+    padding: 2rem;
+    color: var(--white);
+}
+
+.flex_cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.flex_cols .heading{
+   font-weight: 700;
+   font-size: 1.3rem;
+   margin-bottom: 2rem;
+}
+
+.col1 p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-block: 2rem;
+}
+
+.flex_cols div a:hover{
+    color: var(--red);
+}
+
+.col1 p a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.col2 a, .col3 a, .col4 a{
+    display: block;
+    margin-block: 2rem;
+    color: var(--white);
+    color: var(--white);
+    text-decoration: none;
+}
