@@ -80,6 +80,10 @@
   transition: all 0.3s ease;
 }
 
+.second_font_title {
+  font-weight: 700;
+}
+
 .whatyouget_heading_top:hover {
   background-size: calc(100vw - 5%);
 }
@@ -154,7 +158,7 @@
 .Storesonafiari_features_flex::-webkit-scrollbar {
   width: 5px;
   height: 5px;
-  background-color: var(--dark-green);
+  background-color: var(--beige);
 }
 .Storesonafiari_features_flex::-webkit-scrollbar-thumb {
   width: 5px;
@@ -205,3 +209,340 @@
   color: var(--dark);
   text-align: center;
 }
+
+/* Howtoshop */
+
+.Howtoshop {
+  background-color: var(--beige);
+  padding: 3rem 4rem;
+}
+
+.Howtoshop_heading_top {
+  margin-bottom: 2rem;
+}
+
+.green_text {
+  color: var(--dark-green);
+}
+
+.Howtoshop_heading_top {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark);
+  background: linear-gradient(#f8e5c7da, #f8e5c7be),
+    url("../../assets/svg/How\ to\ shop\ on\ Afiari.svg");
+  padding: 2rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 30%);
+  transition: all 0.3s ease;
+}
+
+.Howtoshop_heading_top:hover {
+  background-size: calc(100vw - 10%);
+}
+
+.Howtoshop_features_flex .mobile_down_arrow {
+  display: none;
+}
+
+.Howtoshop_features_flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: -1rem;
+}
+
+.Howtoshop_features_flex .arrow {
+  width: 50%;
+  max-width: 200px;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  margin-right: -10%;
+}
+
+.Howtoshop_features_flex .process_col2 {
+  margin-top: -20%;
+}
+
+.Howtoshop_features_flex .process_col3 .arrow,
+.Howtoshop_features_flex .process_col4 .arrow {
+  width: 50%;
+  max-width: 200px;
+  align-self: flex-start;
+  margin-left: -10%;
+  margin-bottom: 1rem;
+}
+
+.Howtoshop_process_white_box {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 20px 0;
+  margin-bottom: 1rem;
+}
+
+.Howtoshop_process_white_box img {
+  width: 50%;
+  /* max-width: 70px; */
+}
+
+.Howtoshop_features_flex > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* slide section */
+
+.slide_section {
+  margin-bottom: 3rem;
+}
+
+.slide_heading_top {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark);
+  background: linear-gradient(#ffffffd8, #ffffffd8),
+    url("../../assets/svg/What\ our\ customers\ say\ about\ us.svg");
+  padding: 2rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 20%);
+  transition: all 0.3s ease;
+}
+
+.slide_heading_top:hover {
+  background-size: calc(100vw - 10%);
+}
+
+.slide_section .slick-arrow.slick-prev,
+.slide_section .slick-arrow.slick-next {
+  background: var(--dark);
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.slide_section .slick-arrow.slick-prev {
+  left: 0;
+}
+
+.slide_section .slick-arrow.slick-next {
+  right: 0;
+}
+
+.slick-dots li button:before {
+  color: var(--red);
+  font-size: 1.5rem;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--red);
+  opacity: 1;
+}
+
+.slider_main_slide {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.user_review_box img {
+  width: 130px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.user_review_box p {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.user_review_box {
+  margin-bottom: 2rem;
+}
+
+/* 
+.slider_main_slide .slick-slide > div{
+  background: #000;
+  border: 2px solid rgb(255, 0, 212);
+  display: flex;
+  width: 250px !important;
+}
+
+.user_review_box{
+  border: 2px solid greenyellow;
+  width: 250px !important;
+}
+
+.slick-slide.slick-active.slick-current{
+  background: #000;
+  border: 2px solid rgb(38, 192, 0);
+  display: flex;
+  width: 30vw !important;
+  overflow: hidden;
+}
+
+.slick-slide{
+  background: #000;
+  border: 2px solid rgb(38, 192, 0);
+  display: flex;
+  width: 30vw !important;
+  overflow: hidden;
+} */
+
+/* FAQ */
+.Faq {
+  background: var(--dark-green);
+  color: var(--white);
+  padding: 2rem;
+}
+
+.Faq_Tabs {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.Faq_TabList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.Faq_Tab {
+  position: relative;
+  margin-right: 3rem;
+  width: 40vw;
+}
+
+.Faq_Tab::after {
+  content: url("../../assets/svg/chevron_down.svg");
+  display: inline-block;
+  width: 20px;
+  margin-bottom: -20px;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}
+
+.Faq_TabList > .react-tabs__tab--selected {
+  background: none !important;
+  border: none !important;
+  outline: none;
+  color: var(--red);
+  font-weight: 800;
+}
+
+.Faq_TabList > .react-tabs__tab--selected::after {
+  content: url("../../assets/svg/chevron_right.svg");
+}
+
+.Faq_heading_top {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark);
+  background: linear-gradient(#0a503dad, #0a503dad),
+    url("../../assets/svg/FAQs.svg");
+  padding: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: calc(100vw - 80%);
+  transition: all 0.3s ease;
+  margin-bottom: 5rem;
+}
+
+.Faq_heading_top:hover {
+  background-size: calc(100vw - 75%);
+}
+
+.Faq_heading_top h1 {
+  color: var(--white);
+}
+
+.tab_panel_div {
+  border: 2px solid var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--white);
+  color: var(--dark);
+  border-radius: 20px;
+  padding: 2rem;
+  position: relative;
+}
+
+.tab_panel_div::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid var(--white);
+  border-bottom: 30px solid transparent;
+  border-top: 30px solid transparent;
+  position: absolute;
+  left: -100px;
+  top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .hero_adcopy_heading {
+    margin-top: 0;
+  }
+
+  .flex_herosection_col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .whatyouget_features_box {
+    display: block;
+    width: 100%;
+    max-width: 85vw;
+  }
+
+  .Howtoshop_features_flex .mobile_down_arrow {
+    display: block;
+    width: 60px;
+    margin: auto;
+    margin-bottom: 3rem;
+    transform: rotate(50deg);
+  }
+
+  .Howtoshop_features_flex {
+    display: block;
+  }
+
+  .Howtoshop_features_flex > div > img {
+    display: none;
+  }
+
+  .Howtoshop_features_flex .process_col2 {
+    margin-top: 0;
+  }
+}
+/* 
+@media screen and (max-width: 700px) {
+  .hero_adcopy_heading{
+    margin-top: 0;
+  }
+  .flex_herosection_col2{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+} */

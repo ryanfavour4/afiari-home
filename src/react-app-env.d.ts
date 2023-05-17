@@ -4,4 +4,5 @@ declare module "*.jpg"
 declare module "*.pdf"
 declare module "*.css"
 declare module "*.svg"
+declare module "react-slick"
 declare module "*.json";
